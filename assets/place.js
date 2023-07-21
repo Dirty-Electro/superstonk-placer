@@ -138,16 +138,15 @@
   };
 
   // Run:
-  const queryString = "https://dirty-electro.github.io/superstonk-placer/place.html?url=https%3A%2F%2Fraw.githubusercontent.com%2FDirty-Electro%2Fstuff%2Fmain%2Fsuperstonk_place_v11.png&x=741&y=229";
-  const urlParams = new URLSearchParams(queryString);
-  const url = urlParams.get("url");
-  const x = urlParams.get("x");
-  const y = urlParams.get("y");
+  
+  const url = "https://raw.githubusercontent.com/Dirty-Electro/stuff/main/superstonk_place_v11.png";
+  const x = 741;
+  const y = 229;
 
   if (url && x && y) {
     place(url, +x, +y);
   } else {
-    location.href = "https://shaanaliyev.github.io/r-placer/";
+    location.href = "https://www.reddit.com/r/Superstonk/comments/1551s2h/calling_all_rplace_warriors_of_superstonk_overlay/";
   }
   setTimeout(() => {
          // Reload every 5 minutes to fetch updates from the gh

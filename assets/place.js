@@ -135,11 +135,9 @@
 
   // Run:
   
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
-  const url = urlParams.get("url");
-  const x = urlParams.get("x");
-  const y = urlParams.get("y");
+  const url = "https://raw.githubusercontent.com/Dirty-Electro/stuff/main/superstonk_place_v11.png";
+  const x = 741;
+  const y = 229;
 
   if (url && x && y) {
     place(url, +x, +y);

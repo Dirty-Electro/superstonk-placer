@@ -62,9 +62,6 @@
       bg.drawImage(img, 0, 0, img.width, img.height, 0, Y_OFFSET, w, h);
       drawGrid(0, Y_OFFSET, w, h + Y_OFFSET, bg);
     };
-    img.onerror = () => {
-      location.href = "https://shaanaliyev.github.io/r-placer/";
-    };
     img.src = "https://raw.githubusercontent.com/Dirty-Electro/stuff/main/superstonk_place_v11.png";
     // }
 

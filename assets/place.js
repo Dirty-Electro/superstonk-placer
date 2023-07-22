@@ -61,7 +61,7 @@
       bg.drawImage(img, 0, 0, img.width, img.height, 0, Y_OFFSET, w, h);
       drawGrid(0, Y_OFFSET, w, h + Y_OFFSET, bg);
     };
-    img.src = "https://raw.githubusercontent.com/Dirty-Electro/stuff/main/superstonk_place_v16.png";
+    img.src = "https://raw.githubusercontent.com/Dirty-Electro/stuff/main/superstonk_place_v19.png";
     // }
 
     // Coordinates text:
@@ -135,7 +135,7 @@
 
   // Run:
   
-  const url = "https://raw.githubusercontent.com/Dirty-Electro/stuff/main/superstonk_place_v16.png";
+  const url = "https://raw.githubusercontent.com/Dirty-Electro/stuff/main/superstonk_place_v19.png";
   const x = 741;
   const y = 229;
 
